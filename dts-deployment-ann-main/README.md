@@ -4,11 +4,13 @@
 
 Repository ini berisi semua file yang dibutuhkan untuk melakukan deployment model Machine Learning Image Classification menggunakan Deep Learning khususnya metode CNN. Adapun model yang digunakan merupakan model untuk memprediksi gambar Tumor Otak (Glioma & Meningioma).
 
+Dataset dikumpulkan di RSUD Arifin Achmad Provinsi Riau.
+
 #
 
 ## Sekilas mengenai input model
 
-Agar dapat memprediksi kucing atau anjing, data input model harus mengikuti format sebagai berikut:
+Agar dapat memprediksi jenis tumor otak, data input model harus mengikuti format sebagai berikut:
 
 -   Gambar dengan format umum seperti .jpeg, .png, .webp, dsb.
 -   Gambar dikonversi ke dalam bentuk array/tensor
@@ -45,5 +47,5 @@ Agar dapat memprediksi kucing atau anjing, data input model harus mengikuti form
 ## Akses melalui Website
 
 1. Anda akan diberikan URL untuk membuka website berupa `localhost:5000/` atau `127.0.0.1:5000/`.
-1. Buka URL dengan browser, coba masukkan gambar kucing atau anjing yang ingin di prediksi.
-1. Anda akan diberikan prediksi bahwa pada gambar tersebut terdapat kucing atau anjing pada halaman website.
+1. Buka URL dengan browser, coba masukkan gambar tumor otak yang ingin di prediksi.
+1. Anda akan diberikan prediksi bahwa pada gambar tersebut merupakan jenis tumor Glioma atau Meningioma pada halaman website.
