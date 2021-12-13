@@ -1,8 +1,8 @@
-# Deployment Model ANN (Cat vs Dog)
+# Deployment Model Convolutional Neural Network (CNN) EfficientNet-B0 untuk klasifikasi Tumor Otak
 
 ## Deskripsi singkat
 
-Repository ini berisi semua file yang dibutuhkan untuk melakukan deployment model Machine Learning Image Classification menggunakan ANN (Artificial Neural Network). Adapun model yang digunakan merupakan model untuk memprediksi gambar kucing atau anjing (Cat vs Dog).
+Repository ini berisi semua file yang dibutuhkan untuk melakukan deployment model Machine Learning Image Classification menggunakan Deep Learning khususnya metode CNN. Adapun model yang digunakan merupakan model untuk memprediksi gambar Tumor Otak (Glioma & Meningioma).
 
 #
 
@@ -24,8 +24,8 @@ Agar dapat memprediksi kucing atau anjing, data input model harus mengikuti form
 -   templates/
     -   index.html --> Berisi template website.
 -   app.py --> Berisi konfigurasi route dan proses prediksi model untuk API.
--   model.h5 --> Model Image Classification ANN yang sudah di-training.
--   requirements.txt --> Berisi daftar dependency/package Python yang diperlukan untuk menjalankan API dan model Image Classification ANN.
+-   best_weights_B0_SGD1281.h5 --> Model Image Classification ANN yang sudah di-training.
+-   requirements.txt --> Berisi daftar dependency/package Python yang diperlukan untuk menjalankan API dan model Image Classification CNN.
 
 #
 
