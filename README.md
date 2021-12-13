@@ -1,14 +1,14 @@
-# Deployment Model ANN (Cat vs Dog)
+# Deployment Model Convolutional Neural Network (CNN) dengan Arsitektur EfficientNet-B0 untuk Klasifiaksi Jenis Tumor Otak
 
 ## Deskripsi singkat
 
-Repository ini berisi semua file yang dibutuhkan untuk melakukan deployment model Machine Learning Image Classification menggunakan ANN (Artificial Neural Network). Adapun model yang digunakan merupakan model untuk memprediksi gambar kucing atau anjing (Cat vs Dog).
+Repository ini berisi semua file yang dibutuhkan untuk melakukan deployment model Deep Learning Image Classification menggunakan CNN. Adapun model yang digunakan merupakan model untuk memprediksi gambar Tumor Otak (Glioma & Meningioma).
 
 #
 
 ## Sekilas mengenai input model
 
-Agar dapat memprediksi kucing atau anjing, data input model harus mengikuti format sebagai berikut:
+Agar dapat memprediksi jenis Tumor Otak, data input model harus mengikuti format sebagai berikut:
 
 -   Gambar dengan format umum seperti .jpeg, .png, .webp, dsb.
 -   Gambar dikonversi ke dalam bentuk array/tensor
@@ -24,8 +24,8 @@ Agar dapat memprediksi kucing atau anjing, data input model harus mengikuti form
 -   templates/
     -   index.html --> Berisi template website.
 -   app.py --> Berisi konfigurasi route dan proses prediksi model untuk API.
--   model.h5 --> Model Image Classification ANN yang sudah di-training.
--   requirements.txt --> Berisi daftar dependency/package Python yang diperlukan untuk menjalankan API dan model Image Classification ANN.
+-   best_weights_B0_SGD1281.h5 --> Model Image Classification CNN yang sudah di-training.
+-   requirements.txt --> Berisi daftar dependency/package Python yang diperlukan untuk menjalankan API dan model Image Classification CNN.
 
 #
 
@@ -45,5 +45,5 @@ Agar dapat memprediksi kucing atau anjing, data input model harus mengikuti form
 ## Akses melalui Website
 
 1. Anda akan diberikan URL untuk membuka website berupa `localhost:5000/` atau `127.0.0.1:5000/`.
-1. Buka URL dengan browser, coba masukkan gambar kucing atau anjing yang ingin di prediksi.
-1. Anda akan diberikan prediksi bahwa pada gambar tersebut terdapat kucing atau anjing pada halaman website.
+1. Buka URL dengan browser, coba masukkan gambar Tumor Otak yang ingin di prediksi.
+1. Anda akan diberikan prediksi bahwa pada gambar tersebut merupakan jeni tumor Glioma atau Meningioma pada halaman website.
